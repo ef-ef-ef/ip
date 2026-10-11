@@ -86,7 +86,7 @@ EDGE_HOSTS = [
     for h in os.environ.get(
         "EDGE_HOSTS",
         
-        "",
+        "104.21.76.63:443,198.41.213.178:443,104.21.77.84:443",
     ).split(",")
     if h.strip()
 ]
